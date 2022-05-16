@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="restaurante.View.MenuPrincipal.Cuerpo">
+    
+    
+        <Frame CornerRadius="12"
+               HasShadow="False"
+               Grid.Row="1">
+            <StackLayout >
+                <Label Text="{Binding descripcion}"/>
+                <Label Text="Hot y Spicy"/>
+                <Label Text="{Binding precio}"/>
+            </StackLayout>
+            <Image Source="{Binding icono}"/>
+        </Frame>
+        
+            />
+    
+</ContentView>
